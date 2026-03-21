@@ -87,7 +87,7 @@ ul {
 }
 
 .logo-img {
-    height: 24px;
+    height: 30px;
     width: auto;
 }
 
@@ -213,10 +213,10 @@ ul {
     50% { clip: rect(84px, 9999px, 9999px, 0); }
     55% { clip: rect(122px, 9999px, 9999px, 0); }
     60% { clip: rect(10px, 9999px, 9999px, 0); }
-    65% { clip: rect(142px, 9999px, 9999px, 0); }
-    70% { clip: rect(9px, 9999px, 9999px, 0); }
-    75% { clip: rect(81px, 9999px, 9999px, 0); }
-    80% { clip: rect(84px, 9999px, 9999px, 0); }
+    65% { clip: rect(142px, 9999px, 137px, 0); }
+    70% { clip: rect(9px, 9999px, 4px, 0); }
+    75% { clip: rect(81px, 9999px, 94px, 0); }
+    80% { clip: rect(84px, 9999px, 122px, 0); }
     85% { clip: rect(138px, 9999px, 49px, 0); }
     90% { clip: rect(65px, 9999px, 66px, 0); }
     95% { clip: rect(72px, 9999px, 63px, 0); }
@@ -294,15 +294,18 @@ ul {
 }
 
 .hero-image-container {
-    max-width: 400px;
+    max-width: 800px;
     width: 100%;
     margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--card-border);
 }
 
 .hero-image {
     width: 100%;
     display: block;
-    filter: drop-shadow(0 0 20px rgba(0, 240, 255, 0.3));
 }
 
 /* About Section */
